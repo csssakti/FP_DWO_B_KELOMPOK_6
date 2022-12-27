@@ -1,0 +1,23 @@
+Dibuat oleh
+Kelompok 6 (Pararel B)
+-Gabrielle Shierly Oktavianney (20082010025)
+-Eklesia Simaremare (20082010041)
+-Ciptagusti Sila Sakti (20082010043)
+-Veby Pebiola Br Simanjorang (20082010053)
+-Nadilla Anidew (20082010127)
+
+Langkah-langkah yang dibutuhkan untuk menjalankan app dengan baik  
+1. Install database server  MySql (disini kami menggunakan XAMPP versi terbaru).
+2. Install software MySQL management  phpMyAdmin dari Xampp.
+3. Extract Folder Final Project yang berbentuk .zip pada folder htdocs XAMPP (xampphtdocs).
+4. Jalankan Xampp control panel.
+5. Start apache dan mysql server.
+6. Buka phpMyAdmin (localhostphpMyadmin).
+7. Buat database dengan nama dw_adventureworks.
+8. Lakukan import pada file dw_adventureworks.sql pada database di langkah 7
+9. Download dan Extract mondrian.zip dari link dari ilmu yang sudah disediakan dari pak irwan ke dalam server Tomcat bawaan dari XAMPP (xampptomcatwebapps).
+10. Letakkan file mondrian.war pada folder xampp/tomcat/webapps sedangkan untuk file mysql-conector-java diletakkan pada folder xampptomcatwebappsmondrianWEB-INFlib.
+11. Jalankan aplikasi dengan mengakses http://localhost:8080/mondrian/. Akan muncul halaman berhasil menginstall yang merupakan tanda bahwa mondrian sudah bisa digunakan.
+12. Letakkan file yang ada di folder 'queries' ke folder xampp/tomcat/webapps/mondrian/WEB-INF/queries dan file dalam folder 'mondrian files' diletakkan dalam xampp/tomcat/webapps/mondrian/ 
+13. Letakkan file lainnya dalam folder xampp/htdocs/’folder tujuan’.
+14. Buka browser untuk mengakses link localhost/‘folder tujuan’ dan aplikasi telah selesai diinstall
